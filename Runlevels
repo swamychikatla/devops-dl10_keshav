@@ -1,0 +1,15 @@
+Runlevels :
+
+0	= init 0 ; Shutdown
+
+1   = init 1 ; Single User Mode
+
+2  	= init 2 ; Multi-user, Multi-tasking, CUI, & No Network 
+
+3	= init 3 ; Multi-user, Multi-tasking, CUI, & Network 
+
+4	= Unsed 
+
+5	= init 5 ; Multi-user, Multi-tasking, CUI, Network & GUI 
+
+6   = init 6 ; Reboot or Restart
