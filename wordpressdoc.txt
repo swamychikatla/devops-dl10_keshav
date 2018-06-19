@@ -1,0 +1,21 @@
+What is wordpress?
+
+Wordpress is mainly used for creating the dynamic websites.
+As per the survey April 2018 30% of the websites use wordpress
+There are 2 ways
+1) blogs
+2) hosting (It requires Software)
+
+we need to install the following for the wordpress
+
+yum install http*
+yum install php*
+yum install mariadb*
+
+After compliting the installation, we need to start the services
+Copying the package under /var/www/html.
+& we need to edit in document root as /var/www/html/wordpress
+Later on granting the permission as chown -R apache:apache /var/www/html
+& create the data base in the mariadb 
+
+Finally put the ipaddress in the browser & create the new word press.
